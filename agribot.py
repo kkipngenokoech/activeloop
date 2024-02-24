@@ -1,4 +1,4 @@
-token = "7160554334:AAHLcSfeC27uLjOm72johZUfE70Q8kkiX4g"  # Replace with your actual token
+from api import telegram_token as token
 import logging
 from telegram import ForceReply, Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
